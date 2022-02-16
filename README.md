@@ -8,44 +8,44 @@ Typescript cheat sheet
 * [Types Liases]{#types-aliases}
 
 ## Data Types
-´´´javascript
+```javascript   
 const username: string = "John";   
 const age: number = 41;   
 const boomer: boolean = true;
-´´´
+```
 
 ## Arrays
-´´´javascript
+```javascript   
 const username: string[] = ["John", "Paul". "George"];   
 const age: number[] = [41, 21, 67];   
 const boomer: boolean[] = [true, false, true];
 const boomer: any[] = ["John", 41, true];
-´´´
+```
 
 ## Functions
 Parameters
-´´´javascript
+```javascript   
 function sum ( a: number, b: number) {
 return a+b;
-´´´
+```
 
 Parameters and return value
 Parameters
-´´´javascript
+```javascript   
 function sum( a: number, b: number): number {
 return a+b;
-´´´
+```
 
 ## Objects
-´´´javascript
+```javascript    
 const user: {name: string,  age: number} = {
   name: 'John',   
   age: 41
 };
-´´´
+```
 
 ## Types Aliases
-´´´javascript
+```javascript   
 type user = {
 name: string;
 age: number;
@@ -59,10 +59,10 @@ const john: user = {
 const laura: user = {
   name: 'Laura',
   age: 33,
-´´´
+```
 
 
 <!-- ## Data Types
-´´´javascript
+```javascript
 
-´´´ -->
+``` -->
